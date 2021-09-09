@@ -8,7 +8,10 @@ h1{
     color: blueviolet;
 }
 h2{
-    color: cadetblue;
+    color: blueviolet;
+}
+h3{
+    color:crimson;
 }
 header{
     background-image: url('../img/header.jpg');

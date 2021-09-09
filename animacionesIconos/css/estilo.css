@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(61, 61, 116);
+}
+@keyframes mover{
+    from{ top: 50px; color: salmon;}
+    to{top: 250px; color: yellow;}
+}
+#mapa{
+    position: absolute;
+    animation-name: mover;
+    animation-duration:5s;
+    animation-delay: 5s;
+}
+.fas{
+    color: rgb(131, 7, 65);
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+#mundo{
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}

@@ -23,5 +23,12 @@ function sumar(){
              resultado = num / num2;
             miDiv.innerHTML+="<p> El resultado de la division de "+num +" y "+num2  + " es: " + resultado +"</p>";
             break;
+        case "*":
+            resultado = num * num2;
+            miDiv.innerHTML+="<p> El resultado de la multiplicacion de "+num +" y "+num2  + " es: " + resultado +"</p>";
+            break;
+        default:
+            alert ("No se puede ejecutar esta operación");
+            break;
     }
 }

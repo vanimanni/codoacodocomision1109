@@ -1,0 +1,28 @@
+
+body{
+  width: 100%;
+}
+
+.main-header {
+    position: relative;
+    background: url(../img/ba1.jpg);
+    background-size: cover;
+    min-height: 500px;
+  }
+.bcolor{
+    background-color: #69df4c;
+}
+
+footer{
+  position: fixed;
+  bottom: 0 px;
+}
+.backgroundjt {
+  background-image: url("/integrador-html/img/ba1.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+}
